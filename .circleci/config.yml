@@ -7,7 +7,7 @@ jobs:
     steps:
     - checkout
     - run: sleep 2s && ls
-    - run: chmod u+x *
+    - run: sleep 2s && ls
     - run: python -m pip install -r requirements.txt
     - run: python fp.py --type socks4
     - run: python fp.py --type socks5
